@@ -42,6 +42,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
+        <meta name="facebook-domain-verification" content="jyg3rf3biu5nls4tvlqck4fxszr6om" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
