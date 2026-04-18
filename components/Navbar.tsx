@@ -35,7 +35,7 @@ export default function Navbar() {
 
           {/* Logo */}
           <a href="#" className="flex items-center gap-2.5">
-            <Image src="/aeroflow-logo.png" alt="AeroFlow icon" width={34} height={34} className="object-contain" />
+            <Image src="/aeroflow-wing-white-512.png" alt="AeroFlow icon" width={34} height={34} className="object-contain" />
             <span className="font-heading font-700 text-white text-xl tracking-tight">AeroFlow</span>
           </a>
 

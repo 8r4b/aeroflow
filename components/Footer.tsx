@@ -8,7 +8,7 @@ export default function Footer() {
 
         {/* Logo */}
         <div className="flex items-center gap-2.5">
-          <Image src="/aeroflow-logo.png" alt="AeroFlow icon" width={30} height={30} className="object-contain" />
+          <Image src="/aeroflow-wing-white-512.png" alt="AeroFlow icon" width={30} height={30} className="object-contain" />
           <span className="font-heading font-700 text-white text-lg tracking-tight">AeroFlow</span>
         </div>
 
