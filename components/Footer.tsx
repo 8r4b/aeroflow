@@ -24,7 +24,7 @@ export default function Footer() {
         {/* Social */}
         <div className="flex items-center gap-4">
           {[
-            { href: "mailto:mohammed.abd21131a@coeng.uobaghdad.edu.iq", icon: Mail           },
+            { href: "https://mail.google.com/mail/?view=cm&to=mohammed.abd21131a@coeng.uobaghdad.edu.iq", icon: Mail },
             { href: "https://wa.me/9647736360937",                       icon: MessageCircle  },
             { href: "https://instagram.com/8r4b",                        icon: Camera         },
           ].map(({ href, icon: Icon }) => (
