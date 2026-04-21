@@ -1,4 +1,4 @@
-import { Mail, X, Briefcase, Camera } from "lucide-react";
+import { Mail, Camera, MessageCircle } from "lucide-react";
 import Image from "next/image";
 
 export default function Footer() {
@@ -21,13 +21,12 @@ export default function Footer() {
           ))}
         </div>
 
-        {/* Social + copyright */}
+        {/* Social */}
         <div className="flex items-center gap-4">
           {[
-            { href: "mailto:hello@aeroflow.tech", icon: Mail     },
-            { href: "https://twitter.com",        icon: X        },
-            { href: "https://linkedin.com",       icon: Briefcase },
-            { href: "https://instagram.com",      icon: Camera   },
+            { href: "mailto:mohammed.abd21131a@coeng.uobaghdad.edu.iq", icon: Mail           },
+            { href: "https://wa.me/9647736360937",                       icon: MessageCircle  },
+            { href: "https://instagram.com/8r4b",                        icon: Camera         },
           ].map(({ href, icon: Icon }) => (
             <a
               key={href}
