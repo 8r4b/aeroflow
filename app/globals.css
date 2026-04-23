@@ -7,8 +7,8 @@
 @theme {
   /* Brand Colors — dark gray night mode */
   --color-navy:    #0C0C0C;
-  --color-cyan:    #F0F0F0;
-  --color-blue:    #888888;
+  --color-cyan:    #E8F4F8;
+  --color-blue:    #60A5FA;
   --color-slate:   #1A1A1A;
   --color-muted:   #707070;
   --color-white:   #FFFFFF;
@@ -45,17 +45,17 @@ body {
 
   /* Glow Effects */
   .glow-cyan {
-    box-shadow: 0 0 30px rgba(240, 240, 240, 0.10),
-                0 0 60px rgba(240, 240, 240, 0.04);
+    box-shadow: 0 0 30px rgba(96, 165, 250, 0.15),
+                0 0 60px rgba(96, 165, 250, 0.06);
   }
   .glow-cyan-sm {
-    box-shadow: 0 0 15px rgba(240, 240, 240, 0.12);
+    box-shadow: 0 0 15px rgba(96, 165, 250, 0.15);
   }
   .glow-text-cyan {
-    text-shadow: 0 0 30px rgba(255, 255, 255, 0.35);
+    text-shadow: 0 0 30px rgba(96, 165, 250, 0.4);
   }
   .glow-blue {
-    box-shadow: 0 0 30px rgba(136, 136, 136, 0.2);
+    box-shadow: 0 0 30px rgba(96, 165, 250, 0.2);
   }
 
   /* Glass Card */
