@@ -1,38 +1,44 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Cpu, Globe, Mic, MessageSquare, BarChart2, Share2 } from "lucide-react";
+import { Phone, RefreshCcw, Zap, MessageCircle, Users, Smartphone, Video, BarChart3, Mic2 } from "lucide-react";
 
 const services = [
   {
-    icon: Cpu,
-    title: "AI Automation",
-    desc: "Connect your tools and eliminate manual work with n8n, Zapier, and custom AI workflows.",
+    icon: Phone,
+    title: "Inbound Voice Agent",
   },
   {
-    icon: Globe,
-    title: "Website Development",
-    desc: "Fast, modern websites built with Next.js that convert visitors into paying clients.",
+    icon: RefreshCcw,
+    title: "Lead Reactivation",
   },
   {
-    icon: Mic,
-    title: "AI Voice Agents",
-    desc: "24/7 voice agents that answer calls, qualify leads, and book appointments automatically.",
+    icon: Zap,
+    title: "Speed to Lead",
   },
   {
-    icon: MessageSquare,
-    title: "AI Chatbots",
-    desc: "Intelligent bots for WhatsApp, your website, and social media that never sleep.",
+    icon: MessageCircle,
+    title: "WhatsApp Chatbot",
   },
   {
-    icon: BarChart2,
-    title: "CRM Setup",
-    desc: "GoHighLevel pipelines, automated follow-ups, and full lead management — done for you.",
+    icon: Users,
+    title: "Hiring System",
   },
   {
-    icon: Share2,
+    icon: Smartphone,
     title: "Social Media Automation",
-    desc: "Auto-post content, send DMs, and capture leads from social — all on autopilot.",
+  },
+  {
+    icon: Video,
+    title: "AI UGC System",
+  },
+  {
+    icon: BarChart3,
+    title: "Reporting Dashboard",
+  },
+  {
+    icon: Mic2,
+    title: "Voice Cloning Add-on",
   },
 ];
 
@@ -49,9 +55,9 @@ export default function Services() {
           transition={{ duration: 0.55 }}
           className="mb-16"
         >
-          <p className="text-cyan text-sm font-medium mb-3">What We Build</p>
+          <p className="text-cyan text-sm font-medium mb-3">Our Services</p>
           <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-700 tracking-tight max-w-xl">
-            Everything your business needs to run on autopilot.
+            Automate your business with AI.
           </h2>
         </motion.div>
 
@@ -74,10 +80,9 @@ export default function Services() {
                                group-hover:bg-cyan/15 transition-colors duration-300">
                   <Icon size={18} className="text-cyan" />
                 </div>
-                <h3 className="font-heading font-600 text-white text-base mb-2">
+                <h3 className="font-heading font-600 text-white text-base">
                   {s.title}
                 </h3>
-                <p className="text-muted text-sm leading-relaxed">{s.desc}</p>
               </motion.div>
             );
           })}
