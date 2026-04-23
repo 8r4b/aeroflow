@@ -31,6 +31,7 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: "/favicon.ico",
+    apple: "/aeroflow-wing-white-512.png",
   },
 };
 
